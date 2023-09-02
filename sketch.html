@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sketch.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="para">Eatch-a-Sketch</h2>
+    <div class="board"></div>
+    <div class="properties">
+    <button onclick="colorfun('black')">black</button>
+    <button onclick="colorfun('white')">erase</button>
+    <button onclick="colorfun('green')">green</button>
+    <button onclick="colorfun('random')">random</button>
+    <button onclick="window.location.reload()">reset</button>
+    <input type="text" value="16" placeholder="input size" onchange="change(this.value)">
+    <button>setSize</button>
+    </div>
+    <div class="v">please select the size between 2 and 100</div>
+    <script src="sketch.js"></script>
+</body>
+</html>
